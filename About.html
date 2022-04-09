@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" href="./output/output.css">
         <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,19 +26,19 @@
         </header>
 
         <!-About category text->
-        <div class="flex justify-around" style="margin-top: 30px">
-            <p style="font-size: 35px">A bit about me</p>
-            <p style="max-width: 500px">I am a student of computer systems at Riga Technical University and this is a website made by me, which is intended for a bachelor's thesis</p>
+        <div class="flex justify-around my-16">
+            <p class="text-5xl">A bit about me</p>
+            <p class="max-w-lg">I am a student of computer systems at Riga Technical University and this is a website made by me, which is intended for a bachelor's thesis</p>
         </div>
 
-        <img class="w-full" style="margin-top: 50px" src="images/Stretch1A.png" alt="Photographer's image">
+        <img class="w-full mt-20"  src="images/Stretch1A.png" alt="Photographer's image">
 
         <!-About main text->
-        <div class="grid grid-cols-2 grid-rows-1 gap-10 flex justify-around" style="margin-top: 50px; margin-bottom: 50px">
+        <div class="grid grid-cols-2 gap-10 flex justify-around my-20">
             <div>
-                <img style="margin-top: 60px" src="images/Profile.png" alt="Profile picture">
+                <img class="mt-28 ml-10" src="images/Profile.png" alt="Profile picture">
             </div>
-            <div style="max-width: 700px;">
+            <div class="max-w-2xl">
                 <p class="mb-10">Why computer systems?</p>
                 <p class="mb-10">I have been interested in computers since childhood. The computer system program sounded like one i could enjoy.
                     I do not regret my choice, as i will be able to work in a well-paid and interesting job later. The most interesting
@@ -56,18 +57,18 @@
 
         <!-About quote container->
         <div class="w-full relative">
-            <div class="w-full h-full text-white flex flex-col justify-end absolute" style="margin-top: 150px; max-width: 600px; right: 16px">
+            <div class="w-full h-full text-white flex flex-col justify-center absolute max-w-2xl right-16">
                 <p class="mb-10 text-3xl">“When words become unclear, I shall focus with photographs. When images become inadequate,
                     I shall be content with silence.”</p>
                 <p class="text-2xl">~Ansel Adams</p>
             </div>
-            <img src="images/Stretch2A.jpg" class="w-full" alt="Iceland landscape" style="object-fit: cover; height: 60vh">
+            <img src="images/Stretch2A.jpg" class="w-full object-cover" alt="Iceland landscape" style="height: 60vh">
         </div>
     </body>
 
     <!-Footer->
-    <footer style="background-color: black">
-        <ul class="flex text-white justify-center flex-row" style="gap: 20px; padding: 65px">
+    <footer class="bg-black">
+        <ul class="flex text-white justify-center flex-row gap-10 py-16">
             <li>
                 <a href="https://www.facebook.com/">Facebook</a>
             </li>

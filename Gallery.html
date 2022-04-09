@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" href="./output/output.css">
         <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,36 +27,36 @@
 
         <!-About category text->
         <div class="flex justify-around" style="margin-top: 30px">
-            <p style="font-size: 35px">The gallery</p>
-            <p style="max-width: 500px">A set of photos i selected to show you. They were taken from all over the world. Their views are charming</p>
+            <p class="text-5xl">The gallery</p>
+            <p class="max-w-lg">A set of photos i selected to show you. They were taken from all over the world. Their views are charming</p>
         </div>
 
         <p style="margin-top: 100px" class="text-center text-3xl">Categories</p>
 
         <!-Categories->
-        <div class="grid grid-cols-4 grid-rows-1 flex justify-center text-white" style="margin-top: 30px; gap: 200px; font-size: 42px">
+        <div class="grid grid-cols-4 text-white my-10 text-5xl">
             <div class="flex justify-center">
-                <img class="absolute" style="opacity: 80%; height: 400px; width: 270px" src="images/category1.png" alt="Landscape">
-                <a href="Portfolio.html" style="margin-top: 160px" class="relative">Portfolio</a>
+                <img class="absolute opacity-80" style="height: 400px; width: 270px" src="images/category1.png" alt="Landscape">
+                <a href="Portfolio.html" class="relative mt-40">Portfolio</a>
             </div>
             <div class="justify-center flex">
-                <img class="absolute" style="opacity: 80%; height: 400px; width: 270px" src="images/category2.jpg" alt="Iceland landscape">
-                <a href="Iceland.html" style="margin-top: 160px" class="relative">Iceland</a>
+                <img class="absolute opacity-80" style="height: 400px; width: 270px" src="images/category2.jpg" alt="Iceland landscape">
+                <a href="Iceland.html" class="relative mt-40">Iceland</a>
             </div>
             <div class="justify-center flex">
-                <img class="absolute" style="opacity: 80%; height: 400px; width: 270px" src="images/category3.jpg" alt="Japan landscape">
-                <a href="Japan.html" style="margin-top: 160px" class="relative">Japan</a>
+                <img class="absolute opacity-80" style="height: 400px; width: 270px" src="images/category3.jpg" alt="Japan landscape">
+                <a href="Japan.html" class="relative mt-40">Japan</a>
             </div>
             <div class="justify-center flex">
-                <img class="absolute" style="opacity: 80%; height: 400px; width: 270px" src="images/category4.jpg" alt="Canada landscape">
-                <a href="Canada.html" style="margin-top: 160px" class="relative">Canada</a>
+                <img class="absolute opacity-80" style="height: 400px; width: 270px" src="images/category4.jpg" alt="Canada landscape">
+                <a href="Canada.html" class="relative mt-40">Canada</a>
             </div>
         </div>
     </body>
 
     <!-Footer->
-    <footer style="background-color: black; margin-top: 260px">
-        <ul class="flex text-white justify-center flex-row" style="gap: 20px; padding: 65px">
+    <footer class="bg-black mt-72">
+        <ul class="flex text-white justify-center flex-row gap-10 py-16">
             <li>
                 <a href="https://www.facebook.com/">Facebook</a>
             </li>
