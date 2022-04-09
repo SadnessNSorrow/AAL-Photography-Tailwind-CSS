@@ -19,5 +19,8 @@
   "homepage": "https://github.com/SadnessNSorrow/AAL-Photography-Tailwind-CSS#readme",
   "devDependencies": {
     "tailwindcss": "^3.0.23"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3"
   }
 }
